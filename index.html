@@ -1,20 +1,25 @@
 <html>
 	<head>
 		<title>Muh page</title>
+		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+		<link href="https://fonts.googleapis.com/css?family=Merriweather:300" rel="stylesheet"> 
 	</head>
 	<body>
 		<main>
 			<article>
 				<p>I had a baby once.</p>
-				<p>Just once though.</p>
+				<p class="space">Just once though.</p>
 			</article>
 		</main>
 		<footer>
 			<p>She's a good kid.</p>
-			<p>She's cute &reg;.</p>
-			<p>Yeah, so cute shes got a trademark on the word.</p>
+			<p class="space">She's cute &reg;.</p>
+			<p >Yeah, so cute shes got a trademark on the word.</p>
 			<p>Proof:</p>
-			<img src="images/baby.jpg" width="500">
+			<div id="image-container">
+				<img src="images/baby.jpg" alt="My cute-ass baby">
+			</div>
 		</footer>
 	</body>
 </html>
